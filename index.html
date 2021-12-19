@@ -7,7 +7,7 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=900 height=1600 style="width: 900px; height: 1600px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=1080 height=1920 style="width: 1080px; height: 1920px; background: #231F20"></canvas>
     <script src="Build/Build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
@@ -22,8 +22,6 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
-	<script src="test.js"></script>
-	<button id="testButton" onclick="copyTo()">Copy</button>
 	<textarea id="serialNumber"></textarea>
   </body>
 </html>
