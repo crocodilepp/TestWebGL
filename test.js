@@ -10,7 +10,7 @@ function copyTo() {
   document.body.appendChild(textarea);
 
   // select text
-  if (isIos) {
+  /*if (isIos) {
     textarea.value = 'is ios';
     const range = document.createRange();
     range.selectNodeContents(textarea);
@@ -19,10 +19,10 @@ function copyTo() {
     selection.removeAllRanges();
     selection.addRange(range);
     textarea.setSelectionRange(0, 999999);
-  } else {
+  } else {*/
     textarea.value = 'is not ios';
     textarea.select();
-  }
+  //}
 
   // copy selection
   document.execCommand('copy');
