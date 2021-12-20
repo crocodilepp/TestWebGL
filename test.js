@@ -28,5 +28,5 @@ function copyTo() {
   document.execCommand('copy');
 
   // cleanup
-  //document.body.removeChild(textarea);
+  document.body.removeChild(textarea);
   }
