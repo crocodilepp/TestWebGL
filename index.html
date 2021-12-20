@@ -6,10 +6,15 @@
     <title>Unity WebGL Player | Web Game</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+	<link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <script src="main.js"></script>
+    <textarea id="code"></textarea>
+	
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1080 height=1920></canvas>
+	  <input id="copyButton" type="button" style="background-image:url(BNTSNCopy.png);" onclick="copyTo()">
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">

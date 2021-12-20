@@ -1,6 +1,18 @@
-#serialNumber {
+#code {
   position: absolute;
   opacity: .01;
   height: 0;
   overflow: hidden;
+}
+
+#copyButton{
+    width:134px;
+    height:118px;
+    position:absolute;
+    top:696px;
+    left:743px;
+	padding: 0;
+	border: none;
+	background: none;
+	display: none;
 }
