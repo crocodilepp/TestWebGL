@@ -1,5 +1,5 @@
 function copyTo() {
-	var code = document.getElementById("serialNumber").value;
+	var code = document.getElementById("code").value;
     var textarea = document.createElement("textarea");
 	textarea.value = code;
     textarea.style.fontSize = '20px';
