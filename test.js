@@ -1,5 +1,10 @@
 function copyTo() {
-    const isIos = navigator.userAgent.match(/ipad|iphone/i);
+    
+  
+if (confirm("Press a button!") == true) {
+  //alert("ok");
+  
+  const isIos = navigator.userAgent.match(/ipad|iphone/i);
     const textarea = document.createElement('textarea');
 
       // create textarea
@@ -29,4 +34,8 @@ function copyTo() {
 
   // cleanup
   document.body.removeChild(textarea);
+  
+} else {
+  alert("cancel");
+}
   }
