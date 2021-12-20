@@ -20,7 +20,7 @@ function copyTo() {
     selection.addRange(range);
     textarea.setSelectionRange(0, 999999);
   } else {*/
-    textarea.value = 'is not ios';
+    textarea.value = 'is not iosaa';
     textarea.select();
   //}
 
