@@ -51,11 +51,12 @@
 
         var width = $(window).width();
         var height = $(window).height();
+        var screenRatio = height / width;
         var ratio;
-        if (width > height) {
-            ratio = height / 1920;
-        } else {
+        if (screenRatio > 1.7778) {
             ratio = width / 1080;
+        } else {
+            ratio = height / 1920;
         }
         canvas.style.width = 1080 * ratio + "px";
         canvas.style.height = 1920 * ratio + "px";
